@@ -4,13 +4,24 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+**Road map:** https://roadmap.sh/flutter
 
-A few resources to get you started if this is your first Flutter project:
+**Road map Learning:** https://github.com/olexale/flutter_roadmap
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Road map Architure:** https://github.com/Tarikul711/flutter-development-roadmap
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Flutter Docs:** https://docs.flutter.dev/
+
+**Dart Docs:** https://dart.dev/guides
+
+**Dart sandbox coding online:** https://dartpad.dev/?
+
+**YTB Fultter dev:** https://www.youtube.com/@flutterdev
+
+**YTB Learning Fultter TinCoder:** https://www.youtube.com/playlist?list=PL3Ob3F0T-08brnWfs8np2ROjICeT-Pr6T or check https://www.youtube.com/@tincoder
+
+**Gallery Flutter:** https://gallery.flutter.dev/#/
+
+**Flutter Samples Project:** https://flutter.github.io/samples/#
+
+**Setup SDK:** Install Android Studio => Setup Android SDK & Android Simulator Device => VSCode add extension Flutter & Dart => Sync Simulator Device in Android Studio with VSCode => Flutter run
