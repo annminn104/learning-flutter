@@ -5,7 +5,7 @@ import '../../../../helpers/constants/app_colors.dart';
 import '../../../../helpers/constants/app_styles.dart';
 import '../../../../helpers/constants/app_utils.dart';
 import '../../../../helpers/extensions/string_extension.dart';
-import '../../../../helpers/typedefs.dart';
+import '../../../../helpers/type.d.dart';
 
 class TimetableClassItem extends StatelessWidget {
   final double height, width;

@@ -10,7 +10,7 @@ import '../../auth/providers/auth_provider.dart';
 import '../repositories/student_connections_repository.dart';
 
 // Helpers
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 // Enums
 import '../enums/connection_status_enum.dart';

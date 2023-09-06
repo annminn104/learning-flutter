@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../../../../helpers/constants/app_colors.dart';
 import '../../../../helpers/constants/app_styles.dart';
 import '../../../../helpers/constants/app_typography.dart';
-import '../../../../helpers/typedefs.dart';
+import '../../../../helpers/type.d.dart';
 
 // Widgets
 import '../../../shared/widgets/custom_text_button.dart';

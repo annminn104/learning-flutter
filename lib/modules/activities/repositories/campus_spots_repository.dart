@@ -12,7 +12,7 @@ import '../models/campus_spot_model.codegen.dart';
 import '../../all_providers.dart';
 
 // Helpers
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 final campusSpotsRepositoryProvider = Provider<CampusSpotsRepository>((ref) {
   final _apiService = ref.watch(apiServiceProvider);

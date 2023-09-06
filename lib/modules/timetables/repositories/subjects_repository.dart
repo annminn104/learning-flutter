@@ -12,7 +12,7 @@ import '../models/subject_model.codegen.dart';
 import '../../all_providers.dart';
 
 // Helpers
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 final subjectsRepositoryProvider = Provider<SubjectsRepository>((ref) {
   final _apiService = ref.watch(apiServiceProvider);

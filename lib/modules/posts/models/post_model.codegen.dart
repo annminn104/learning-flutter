@@ -2,7 +2,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 
 // Helpers
 import '../../../helpers/constants/app_utils.dart';
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 // Enums
 import '../enums/post_privacy_enum.dart';
@@ -21,10 +21,10 @@ class PostModel with _$PostModel {
     required String body,
     required PostPrivacy privacy,
     @JsonKey(toJson: AppUtils.toNull, includeIfNull: false)
-        required SubStudentModel author,
+    required SubStudentModel author,
     required DateTime postedAt,
     @JsonKey(toJson: AppUtils.toNull, includeIfNull: false)
-        List<PostReactionCountModel>? top3Reactions,
+    List<PostReactionCountModel>? top3Reactions,
     required List<PostResourceModel>? resources,
   }) = _PostModel;
 

@@ -3,7 +3,7 @@ import 'dart:collection';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 // Helpers
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 final timetablesProvider = Provider((ref) {
   return TimetablesProvider();

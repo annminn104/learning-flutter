@@ -4,7 +4,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:flutter/foundation.dart';
 
 import '../../../helpers/constants/app_utils.dart';
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 import '../enums/resource_type_enum.dart';
 
 part 'post_resource_model.codegen.freezed.dart';

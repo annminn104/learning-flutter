@@ -11,7 +11,7 @@ import '../../profile/models/student_model.codegen.dart';
 import '../../all_providers.dart';
 
 // Helpers
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 final authRepositoryProvider = Provider<AuthRepository>((ref) {
   final _apiService = ref.watch(apiServiceProvider);

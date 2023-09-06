@@ -3,7 +3,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:flutter/foundation.dart';
 
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 import '../enums/reaction_type_enum.dart';
 
 part 'reaction_type_model.codegen.freezed.dart';
@@ -16,5 +16,6 @@ class ReactionTypeModel with _$ReactionTypeModel {
     required ReactionTypeEnum reactionType,
   }) = _ReactionTypeModel;
 
-  factory ReactionTypeModel.fromJson(JSON json) => _$ReactionTypeModelFromJson(json);
+  factory ReactionTypeModel.fromJson(JSON json) =>
+      _$ReactionTypeModelFromJson(json);
 }

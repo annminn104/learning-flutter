@@ -11,7 +11,7 @@ import '../models/teacher_model.codegen.dart';
 import '../../all_providers.dart';
 
 // Helpers
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 final teachersRepositoryProvider = Provider<TeachersRepository>((ref) {
   final _apiService = ref.watch(apiServiceProvider);

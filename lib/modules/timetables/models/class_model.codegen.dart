@@ -13,7 +13,7 @@ import '../../teacher_reviews/models/teacher_model.codegen.dart';
 import '../enums/day_enum.dart';
 
 // Helpers
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 part 'class_model.codegen.freezed.dart';
 part 'class_model.codegen.g.dart';

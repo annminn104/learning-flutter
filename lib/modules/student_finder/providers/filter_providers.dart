@@ -16,7 +16,7 @@ import '../../profile/enums/student_type_enum.dart';
 import '../../profile/models/campus_model.codegen.dart';
 
 // Helpers
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 final genderFilterProvider = StateProvider<Gender?>((ref) => null);
 final programFilterProvider = StateProvider<ProgramModel?>((ref) => null);

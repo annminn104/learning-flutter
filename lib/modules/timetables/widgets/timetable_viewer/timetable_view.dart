@@ -7,7 +7,7 @@ import 'package:table_sticky_headers/table_sticky_headers.dart';
 import '../../providers/timeslots_provider.dart';
 
 // Helpers
-import '../../../../helpers/typedefs.dart';
+import '../../../../helpers/type.d.dart';
 
 // Widgets
 import 'timeslot_title.dart';

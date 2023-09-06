@@ -11,13 +11,15 @@ import '../models/student_connection_model.codegen.dart';
 import '../../all_providers.dart';
 
 // Helpers
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 final studentConnectionsRepositoryProvider =
-    Provider<StudentConnectionsRepository>((ref) {
-  final _apiService = ref.watch(apiServiceProvider);
-  return StudentConnectionsRepository(apiService: _apiService);
-},);
+    Provider<StudentConnectionsRepository>(
+  (ref) {
+    final _apiService = ref.watch(apiServiceProvider);
+    return StudentConnectionsRepository(apiService: _apiService);
+  },
+);
 
 class StudentConnectionsRepository {
   final ApiService _apiService;

@@ -4,7 +4,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:flutter/foundation.dart';
 
 import '../../../helpers/constants/app_utils.dart';
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 part 'post_reaction_model.codegen.freezed.dart';
 part 'post_reaction_model.codegen.g.dart';

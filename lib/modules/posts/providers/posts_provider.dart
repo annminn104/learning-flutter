@@ -16,7 +16,7 @@ import '../../auth/providers/auth_provider.dart';
 import '../repositories/posts_repository.dart';
 
 // Helpers
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 // Enums
 import '../enums/post_privacy_enum.dart';

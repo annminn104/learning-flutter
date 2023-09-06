@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import '../../shared/types/typedefs.dart';
+import '../../shared/types/type.d.dart';
 import '../models/response_model.dart';
 
 abstract class ApiInterface {

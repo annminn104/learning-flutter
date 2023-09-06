@@ -4,7 +4,7 @@ import 'package:dio/dio.dart';
 import 'package:dio_cache_interceptor/dio_cache_interceptor.dart';
 import '../models/custom_exception_model.dart';
 import '../models/response_model.dart';
-import '../../shared/types/typedefs.dart';
+import '../../shared/types/type.d.dart';
 
 /// A service class that wraps the [Dio] instance and provides methods for
 /// basic network requests.

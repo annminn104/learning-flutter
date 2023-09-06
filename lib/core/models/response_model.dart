@@ -1,5 +1,5 @@
 import '../../shared/constants/app/utils.dart';
-import '../../shared/types/typedefs.dart';
+import '../../shared/types/type.d.dart';
 
 class ResponseModel<T> {
   final _ResponseHeadersModel headers;

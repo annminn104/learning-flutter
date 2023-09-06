@@ -3,7 +3,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:flutter/foundation.dart';
 
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 import '../../requests/models/sub_student_model.codegen.dart';
 import '../../timetables/models/subject_model.codegen.dart';
 
@@ -26,5 +26,6 @@ class TeacherReviewModel with _$TeacherReviewModel {
     required SubStudentModel reviewedBy,
   }) = _TeacherReviewModel;
 
-  factory TeacherReviewModel.fromJson(JSON json) => _$TeacherReviewModelFromJson(json);
+  factory TeacherReviewModel.fromJson(JSON json) =>
+      _$TeacherReviewModelFromJson(json);
 }

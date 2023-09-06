@@ -6,7 +6,7 @@ import '../providers/timetables_provider.dart';
 
 // Helpers
 import '../../../helpers/constants/app_styles.dart';
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 // Routing
 import '../../../config/routes/app_router.dart';

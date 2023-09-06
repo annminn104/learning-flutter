@@ -3,7 +3,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:flutter/foundation.dart';
 
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 part 'hobby_model.codegen.freezed.dart';
 part 'hobby_model.codegen.g.dart';

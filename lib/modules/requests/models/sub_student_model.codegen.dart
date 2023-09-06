@@ -3,7 +3,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:flutter/foundation.dart';
 
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 part 'sub_student_model.codegen.freezed.dart';
 part 'sub_student_model.codegen.g.dart';
@@ -19,5 +19,6 @@ class SubStudentModel with _$SubStudentModel {
     required int graduationYear,
   }) = _SubStudentModel;
 
-  factory SubStudentModel.fromJson(JSON json) => _$SubStudentModelFromJson(json);
+  factory SubStudentModel.fromJson(JSON json) =>
+      _$SubStudentModelFromJson(json);
 }

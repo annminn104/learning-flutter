@@ -14,7 +14,7 @@ import '../../teacher_reviews/models/teacher_model.codegen.dart';
 import '../enums/day_enum.dart';
 
 // Helpers
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 import '../../../helpers/constants/app_utils.dart';
 
 part 'timetable_model.codegen.freezed.dart';
@@ -27,8 +27,7 @@ List<String> _classesToErps(List<ClassModel> classes) {
 @freezed
 class TimetableModel with _$TimetableModel {
   const factory TimetableModel({
-    @JsonKey(toJson: AppUtils.toNull, includeIfNull: false)
-        int? timetableId,
+    @JsonKey(toJson: AppUtils.toNull, includeIfNull: false) int? timetableId,
     required String studentErp,
     required int termId,
     @JsonKey(
@@ -36,9 +35,8 @@ class TimetableModel with _$TimetableModel {
       toJson: AppUtils.toNull,
       includeIfNull: false,
     )
-        required bool isActive,
-    @JsonKey(toJson: _classesToErps)
-        required List<ClassModel> classes,
+    required bool isActive,
+    @JsonKey(toJson: _classesToErps) required List<ClassModel> classes,
   }) = _TimetableModel;
 
   factory TimetableModel.fromJson(JSON json) => _$TimetableModelFromJson(json);

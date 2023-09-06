@@ -1,7 +1,7 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 // Helpers
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 // Models
 import '../../profile/models/student_model.codegen.dart';
@@ -16,7 +16,8 @@ final studentsProvider = Provider<StudentsProvider>((ref) {
   );
 });
 
-final othersProfileFutureProvider = FutureProvider.family.autoDispose<StudentModel, String>(
+final othersProfileFutureProvider =
+    FutureProvider.family.autoDispose<StudentModel, String>(
   (ref, erp) async => ref.watch(studentsProvider).getStudent(erp),
 );
 

@@ -5,7 +5,7 @@ import 'package:flutter/foundation.dart';
 
 import '../../../helpers/constants/app_utils.dart';
 import '../enums/connection_status_enum.dart';
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 import 'sub_student_model.codegen.dart';
 
 part 'student_connection_model.codegen.freezed.dart';
@@ -36,7 +36,8 @@ class StudentConnectionModel with _$StudentConnectionModel {
       if (senderErp != null) 'sender_erp': senderErp,
       if (receiverErp != null) 'receiver_erp': receiverErp,
       if (sentAt != null) 'sent_at': AppUtils.dateTimeToJson(sentAt),
-      if (acceptedAt != null) 'accepted_at': AppUtils.dateTimeToJson(acceptedAt),
+      if (acceptedAt != null)
+        'accepted_at': AppUtils.dateTimeToJson(acceptedAt),
       if (connectionStatus != null)
         'connection_status': connectionStatus.toJson,
     };

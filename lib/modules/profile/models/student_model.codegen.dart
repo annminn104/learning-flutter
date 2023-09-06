@@ -2,7 +2,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 
 // Helpers
 import '../../../helpers/constants/app_utils.dart';
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 // Enums
 import '../../requests/enums/connection_status_enum.dart';
@@ -27,9 +27,9 @@ class StudentModel with _$StudentModel {
     required int graduationYear,
     required String uniEmail,
     @JsonKey(includeIfNull: false, fromJson: AppUtils.removeNulls)
-        List<int>? hobbies,
+    List<int>? hobbies,
     @JsonKey(includeIfNull: false, fromJson: AppUtils.removeNulls)
-        List<int>? interests,
+    List<int>? interests,
     required int programId,
     required int campusId,
     @JsonKey(includeIfNull: false) String? favouriteCampusHangoutSpot,
@@ -37,9 +37,9 @@ class StudentModel with _$StudentModel {
     @JsonKey(includeIfNull: false) StudentRole? role,
     @JsonKey(name: 'current_status', includeIfNull: false) int? currentStatusId,
     @JsonKey(fromJson: AppUtils.boolFromInt, toJson: AppUtils.boolToInt)
-        required bool isActive,
+    required bool isActive,
     @JsonKey(toJson: AppUtils.toNull, includeIfNull: false)
-        ProfileStudentConnectionModel? studentConnection,
+    ProfileStudentConnectionModel? studentConnection,
   }) = _StudentModel;
 
   factory StudentModel.fromJson(JSON json) => _$StudentModelFromJson(json);

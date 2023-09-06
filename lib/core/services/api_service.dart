@@ -4,7 +4,7 @@ import './dio_service.dart';
 import '../models/custom_exception_model.dart';
 import '../models/response_model.dart';
 import '../interfaces/api_interface.dart';
-import '../../shared/types/typedefs.dart';
+import '../../shared/types/type.d.dart';
 
 class ApiService implements ApiInterface {
   /// An instance of [DioService] for network requests

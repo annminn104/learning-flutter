@@ -11,8 +11,7 @@ import '../../modules/posts/screens/add_edit_post_screen.dart';
 import '../../modules/profile/screens/profile_screen.dart';
 import '../../modules/profile/screens/update_preferences_screen.dart';
 import '../../modules/timetables/screens/generated_timetables_screen.dart';
-import '../../shared/types/typedefs.dart';
-
+import '../../shared/types/type.d.dart';
 
 /// The Routes class is immutable.
 @immutable

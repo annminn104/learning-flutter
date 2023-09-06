@@ -12,7 +12,7 @@ import '../models/interest_model.codegen.dart';
 import '../../all_providers.dart';
 
 // Helpers
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 final interestsRepositoryProvider = Provider<InterestsRepository>((ref) {
   final _apiService = ref.watch(apiServiceProvider);

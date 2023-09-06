@@ -3,7 +3,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:flutter/foundation.dart';
 
-import '../../../helpers/typedefs.dart';
+import '../../../helpers/type.d.dart';
 
 part 'student_status_model.codegen.freezed.dart';
 part 'student_status_model.codegen.g.dart';
@@ -15,5 +15,6 @@ class StudentStatusModel with _$StudentStatusModel {
     required String studentStatus,
   }) = _StudentStatusModel;
 
-  factory StudentStatusModel.fromJson(JSON json) => _$StudentStatusModelFromJson(json);
+  factory StudentStatusModel.fromJson(JSON json) =>
+      _$StudentStatusModelFromJson(json);
 }

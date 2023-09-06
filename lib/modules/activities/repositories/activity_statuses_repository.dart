@@ -4,7 +4,7 @@ import '../../../core/networking/api_endpoint.dart';
 import '../../../core/networking/api_service.dart';
 import '../models/activity_status_model.codegen.dart';
 import '../../app_provider.dart';
-import '../../../shared/types/typedefs.dart';
+import '../../../shared/types/type.d.dart';
 
 final activityStatusesRepositoryProvider =
     Provider<ActivityStatusesRepository>((ref) {
